@@ -1,6 +1,153 @@
-/*FONT links start by DWN*/
+/*FONT links by Download*/
 
 @font-face{
-	font-family: PTN57F;
-	src: url(../fonts/pt-sans/PTN57F.ttf);
+	font-family: Merriweather-Regular;
+	src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+@font-face{
+	font-family: Merriweather-Bold;
+	src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+@font-face{
+	font-family: Merriweather-Black;
+	src: url(../fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+@font-face{
+	font-family: Inter-VariableFont_slnt,wght;
+	src: url(../fonts/Inter/Inter-VariableFont_slnt,wght.ttf);
+}
+@font-face{
+	font-family: Inter-Regular;
+	src: url(../fonts/Inter/Inter-Regular.ttf);
+}
+@font-face{
+	font-family: Inter-Bold;
+	src: url(../fonts/Inter/Inter-Bold.ttf);
+}
+
+
+/* COMMON SECTION */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Inter-VariableFont_slnt,wght;
+	font-weight: 400;
+	color: white;
+}
+button{
+	color: white;
+	padding: 7px 32px;
+	border: none;
+}
+
+/* BANNER SECTION */
+
+.banner{}
+.banner_wrapper{
+	background-image: url('../images/Banner Image.png');
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 177px 244px;
+	border-radius: 16px;
+	/* filter: brightness(20%); */	
+}
+.banner_wrapper h5{
+	font-family: Merriweather-Regular;
+	font-size: 32px;
+	/* filter: contrast(150%); */
+}
+.banner_wrapper h2{
+	font-family: Merriweather-Bold;
+	font-size: 72px;
+	/* font-weight: 900; */
+	line-height: 95px;
+}
+.offer_wrapper{
+	text-align: center;
+}
+.offer_wrapper h3{
+	margin: 20px 0 30px;
+	font-size: 88px;
+	font-family: Inter-Bold;
+	color: #F00;
+}
+.offer_wrapper p{
+	font-family: Inter-Regular;
+	font-size: 24px;
+	color: #f00;
+}
+.offer_wrapper h5{
+	margin: 16px 0 32px;
+	font-family: Inter-Regular;
+	font-size: 48px;
+	font-weight: 700;
+	color: #070211;
+}
+.offer_wrapper img{
+	width: 55%;
+}
+
+/* INVITATION SECTION */
+
+.invitation_wrapper{
+	background-image: url('../images/Group 70.png'), url('../images/Vectorrr.png');
+	background-size: 20%, 80%;
+	background-position: 77% 50%, center;
+	background-repeat: no-repeat;
+	/* text-align: center; */
+	padding: 177px 230px;
+	border-radius: 16px;
+	/* filter: brightness(20%); */	
+}
+.invitation_wrapper h3{
+	font-family: Merriweather-Bold;
+	font-size: 50px;
+	letter-spacing: 7.04px;
+}
+.invitation_wrapper p{
+	font-family: Merriweather-Regular;
+	font-size: 15px;
+	padding: 36px 300px 24px 0;
+	line-height: 24px;
+}
+.btn{
+	background-color: transparent;	
+}
+
+/* PORTFOLIO SECTION */
+.pportfolio{
+	text-align: center;
+}
+.portfolio_wrapper{
+	margin: auto;
+	/* text-align: center; */
+	width: 80%;
+}
+.portfolio_text h5{
+	color: #f00;
+}
+.portfolio_text h3{
+	color: #070211;
+}
+.portfolio_text p{
+	color: rgba(7, 2, 17, 0.60);
+}
+.portfolio_img_container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-between;
+}
+.portfolio_img_container li{
+	width: 32%;
+	
+}
+.portfolio_img_container li img{
+	width: 100%;
 }
