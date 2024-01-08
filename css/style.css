@@ -269,6 +269,9 @@ footer{
 	justify-content: space-between;
 	text-align: center;
 }
+.footer_contact > div p{
+	margin-bottom: 8px;
+}
 hr{
 	margin: 48px 0;
 	background-color: rgba(255, 255, 255, 0.15);
